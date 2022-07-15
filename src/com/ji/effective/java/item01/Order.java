@@ -1,4 +1,4 @@
-package com.ji.effective.java;
+package com.ji.effective.java.item01;
 
 import java.util.Arrays;
 
