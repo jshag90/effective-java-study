@@ -2,9 +2,9 @@ package com.ji.effective.java.item04;
 
 public class UtilityClass {
 
-    private UtilityClass(){
-        throw new AssertionError();
-    }
+   // private UtilityClass(){
+      //  throw new AssertionError();
+   // }
 
     public static String hello(){ return "hello";}
 
