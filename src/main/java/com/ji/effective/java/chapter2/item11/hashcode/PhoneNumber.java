@@ -49,9 +49,11 @@ public class PhoneNumber {
 //    }
 
     //해시코드를 지연 초기화하는 hashCode 메서드 - 스레드 안정성까지 고려해야한다. (71쪽)
+
     private volatile int hashCode;
 
     @Override public int hashCode(){
+        //더블 체크드 락킹
         if(this.hashCode !=0){
             return hashCode;
         }
